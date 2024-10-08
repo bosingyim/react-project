@@ -89,19 +89,19 @@ function Forecast({ weather }) {
           <ReactAnimatedWeather icon="WIND" size="40"/>
           <div>
             <p className="wind">{data.wind.speed}m/s</p>
-            <p>Wind speed</p>
+            <p>แรงลม</p>
           </div>
         </div>
         <div className="col">
           <ReactAnimatedWeather icon="RAIN" size="40"/>
           <div>
             <p className="humidity">{data.temperature.humidity}%</p>
-            <p>Humidity</p>
+            <p>ความชื้น</p>
         </div>
         </div>
       </div>
       <div className="forecast">
-        <h3>5-Day Forecast:</h3>
+        <h3>พยากรณ์อากาศ 5 วัน:</h3>
         <div className="forecast-container">
           {forecastData &&
             forecastData.slice(0, 5).map((day) => (
