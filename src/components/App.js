@@ -102,7 +102,7 @@ function App() {
           <br />
           <span className="error-message">
             <span style={{ fontFamily: "font" }}>
-              Sorry city not found, please try again.
+              ไม่พบข้อมูล.
             </span>
           </span>
         </>
