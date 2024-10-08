@@ -16,7 +16,7 @@ function App() {
 
   const toDate = () => {
     const months = [
-      "January",
+      "มกราคม",
       "February",
       "March",
       "April",
@@ -25,7 +25,7 @@ function App() {
       "July",
       "August",
       "September",
-      "October",
+      "ตุลาคม",
       "November",
       "December"
     ];
