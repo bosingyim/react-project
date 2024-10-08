@@ -16,7 +16,7 @@ function App() {
 
   const toDate = () => {
     const months = [
-      "มกราคม",
+      "Jan",
       "February",
       "March",
       "April",
@@ -32,7 +32,7 @@ function App() {
     const days = [
       "Sunday",
       "Monday",
-      "Tuesday",
+      "อังคาร",
       "Wednesday",
       "Thursday",
       "Friday",
